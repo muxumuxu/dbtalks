@@ -1,0 +1,52 @@
+.talks
+  padding: 140px 0 0
+
+  .talk-list
+    margin-top: 60px
+
+  .talk-link
+    display: block
+    color: inherit
+    text-decoration: none
+    overflow: auto
+    padding: 40px 0
+    &:hover
+      .talk-title
+        color: $main_color
+
+  .talk
+    font-size: 14px
+    line-height: 24px
+    border-bottom: 1px solid $border_color
+    &:first-child
+      border-top: 1px solid $border_color
+
+  .talk-author, .talk-text, .talk-date
+    float: left
+
+  .talk-author
+    width: 30%
+    font-size: 18px
+    color: $title_color
+    padding-right: 20px
+  .talk-text
+    width: 50%
+    padding-left: 20px
+    .talk-title
+      font-weight: 600
+  .talk-date
+    width: 20%
+    padding-left: 20px
+    text-transform: lowercase
+
+@media screen and (max-width: 640px)
+  .talks
+    padding: 70px 0 0
+
+    .talk-author, .talk-text, .talk-date
+      float: none
+      padding: 0
+      width: 100%
+
+    .talk-text
+      margin: 10px 0

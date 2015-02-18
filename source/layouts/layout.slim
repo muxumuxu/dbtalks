@@ -1,0 +1,35 @@
+doctype 5
+html lang='fr'
+  head
+    meta http-equiv='content-type' content='text/html; charset=utf-8'
+
+    title Design & Beers
+
+    meta name='description' content="D&B talks c'est le rendez-vous de tous les designers et passionnés du numérique. On y parle UX, UI, Web, Mobile, Motion Design... Le tout autour de bonnes bières dans une ambiance décontractée."
+    meta name="keywords" content="Design and Beers Talks, Bordeaux, design, apéro, talks, présentation"
+    meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+
+    meta property="og:title" content="Design and Beers Talks"
+    meta property="og:url" content="http://www.dbtalks.org"
+    meta property="og:image" content="http://www.dbtalks.org/images/facebook.jpg"
+    meta property="og:description" content="D&B talks c'est le rendez-vous de tous les designers et passionnés du numérique. On y parle UX, UI, Web, Mobile, Motion Design... Le tout autour de bonnes bières dans une ambiance décontractée."
+
+    link rel="icon" type="image/png" href="images/favicon.png"
+    link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"
+
+    = stylesheet_link_tag 'app'
+
+  body#top
+    header.header
+      .wrapper
+        = link_to '#top', class: 'logo' do
+          = image_tag 'logo.svg'
+
+        nav.menu
+          ul.menu-list
+            li.menu-item = link_to 'À propos', '#about'
+            li.menu-item = link_to 'Talks', '#talks'
+            li.menu-item = link_to 'Équipe', '#team'
+            li.menu-item = link_to 'Contacts', '#contact'
+
+    = yield

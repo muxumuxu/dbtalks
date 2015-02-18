@@ -1,0 +1,56 @@
+section.hero
+  .wrapper
+    .heading
+      h1.heading-title Les Design & Beers Talks se déroulent tous les derniers Lundis de chaque mois au <em>Ramblin’Man</em> à 19h00
+      p.heading-subtitle
+        | Lundi 2 mars, présentation par Andrei Bocan :
+        br
+        | “Let's talk type”
+      = link_to "S'inscrire Gratuitement", '#', class: 'button'
+
+section#about.about
+  .wrapper
+    .section-heading
+      h2.heading-title À propos
+      p.heading-text
+        | Les Design &amp; Beers Talks sont faits pour les passionnés.
+        br
+        | Graphistes, illustrateurs, vidéastes, typographes, développeurs, tous le monde est le bienvenue.
+        br
+        br
+        | Le but est simplement de se rencontrer et d’échanger en bonne compagnie.
+
+section#talks.talks
+  .wrapper
+    .section-heading
+      h2.heading-title Talks
+      p.heading-text
+        | Envie de partager ton expérience sur un sujet lié au design ?
+        br
+        => mail_to 'hi@dbtalks.org', 'Contacte-nous'
+        | dès maintenant.
+
+    .talk-list
+      - data.talks.each do |talk|
+        article.talk
+          = link_to talk.url, class: 'talk-link' do
+            .talk-author = talk.author
+            .talk-text
+              .talk-title = talk.title
+              .talk-description = talk.description
+            .talk-date
+              time(datetime=talk.date) = I18n.localize talk.date, format: '%e %B %Y'
+
+section#team.team
+  .wrapper
+    .section-heading
+      h2.heading-title Équipe
+      p.heading-text
+        | Notre équipe est composée à 99.9% d’humains passionnés, plus une licorne dite “Licorne des Internets”.
+        br
+        ' Pour plus de bonheur dans ta vie,
+        => mail_to 'hi@dbtalks.org', 'rejoins-nous'
+        | maintenant.
+
+
+section#contacts.contacts

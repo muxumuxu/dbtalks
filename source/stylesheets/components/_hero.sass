@@ -1,0 +1,30 @@
+.hero
+  margin: 110px 0 160px
+  .heading
+    max-width: 545px
+
+  .heading-title
+    font-size: 28px
+    line-height: 50px
+    margin: 0 0 10px
+    em
+      position: relative
+      text-decoration: none
+      font-style: normal
+      &:after
+        content: ''
+        position: absolute
+        top: 100%
+        left: 0
+        width: 100%
+        margin-top: 4px
+        border-bottom: 1px solid $main_color
+
+  .heading-subtitle
+    font-size: 18px
+    line-height: 30px
+    margin: 0 0 20px
+
+@media screen and (max-width: 640px)
+  .hero
+    margin: 54px 0 70px
