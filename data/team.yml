@@ -1,0 +1,35 @@
+# Team member model should be:
+#
+# - name: Name of the crew member
+#   photo: photo_of_the_crew.jpg (in the folder images/team)
+#   links:
+#     twitter: http://twitter.com/Username
+#     site: http://the-member.site
+#     anything: http://any-possible.url/Can-Also-Be-A-mailto
+
+- name: Andrei
+  photo: andrei.jpg
+
+- name: Noémie
+  photo: noemie.jpg
+
+- name: Stépha
+  photo: stepha.jpg
+
+- name: Romain
+  photo: romain.jpg
+
+- name: Jon
+  photo: jon.jpg
+
+- name: Marie
+  photo: marie.jpg
+
+- name: Luc
+  photo: luc.jpg
+  links:
+    twitter: https://twitter.com/lucchaissac
+    site: http://lucchaissac.com/
+
+- name: Licorne des Internets
+  photo: licorne.jpg

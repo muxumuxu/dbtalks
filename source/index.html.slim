@@ -62,6 +62,18 @@ section#team.team
         => mail_to 'hi@dbtalks.org', 'rejoins-nous'
         | maintenant.
 
+    .members
+      - data.team.each do |member|
+        .member(style="background-image: url(#{image_path 'team/' + member.photo});")
+          .member-infos
+            .member-infos-wrapper
+              h5.member-name = member.name
+              - if member.links && member.links.any?
+                .member-links
+                  - member.links.each do |type, url|
+                    = link_to type, url, target: '_blank', class: 'member-link'
+
+
 
 section#contacts.contacts
   .wrapper
