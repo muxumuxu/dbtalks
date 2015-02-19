@@ -6,6 +6,11 @@
 
   .talk-list
     margin-top: 60px
+    &.opened
+      .more-talks
+        max-height: 2000px
+      .talk-list-more
+        display: none
 
   .talk-list-more
     color: $main_color
@@ -50,6 +55,13 @@
     border-bottom: 1px solid $border_color
     &:first-child
       border-top: 1px solid $border_color
+
+  .more-talks
+    max-height: 0
+    overflow: hidden
+    +transition(max-height .8s)
+    .talk:first-child
+      border-top: none
 
   .talk-author, .talk-text, .talk-date
     float: left

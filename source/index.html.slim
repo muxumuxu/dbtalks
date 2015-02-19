@@ -41,17 +41,31 @@ section#talks.talks
         | dès maintenant.
 
     .talk-list
-      - data.talks.each do |talk|
-        article.talk
-          = link_to talk.url, class: 'talk-link' do
-            .talk-author = talk.author
-            .talk-text
-              .talk-title = talk.title
-              .talk-description = talk.description
-            .talk-date
-              time(datetime=talk.date) = I18n.localize talk.date, format: '%e %B %Y'
+      - visible_talks = data.talks[1..4]
+      - more_talks = data.talks[4..-1]
+      .visible-talks
+        - visible_talks.each do |talk|
+          article.talk
+            = link_to talk.url, class: 'talk-link' do
+              .talk-author = talk.author
+              .talk-text
+                .talk-title = talk.title
+                .talk-description = talk.description
+              .talk-date
+                time(datetime=talk.date) = I18n.localize talk.date, format: '%e %B %Y'
 
-      .talk-list-more Afficher les 9 précédents talks
+      .talk-list-more = "Afficher les #{more_talks.count} précédents talks"
+
+      .more-talks
+        - more_talks.each do |talk|
+          article.talk
+            = link_to talk.url, class: 'talk-link' do
+              .talk-author = talk.author
+              .talk-text
+                .talk-title = talk.title
+                .talk-description = talk.description
+              .talk-date
+                time(datetime=talk.date) = I18n.localize talk.date, format: '%e %B %Y'
 
 section#team.team
   .wrapper
