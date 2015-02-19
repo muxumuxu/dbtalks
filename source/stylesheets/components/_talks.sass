@@ -1,3 +1,5 @@
+@import "compass/css3/transition"
+
 .talks
   padding: 140px 0 0
 
@@ -13,6 +15,9 @@
     &:hover
       .talk-title
         color: $main_color
+        &:after
+          left: 0
+          opacity: 1
 
   .talk
     font-size: 14px
@@ -34,6 +39,14 @@
     padding-left: 20px
     .talk-title
       font-weight: 600
+      +transition(all .2s)
+      &:after
+        position: relative
+        content: '→'
+        color: $main_color
+        left: -4px
+        opacity: 0
+        +transition(all .2s)
   .talk-date
     width: 20%
     padding-left: 20px

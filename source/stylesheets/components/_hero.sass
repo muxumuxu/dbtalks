@@ -9,16 +9,11 @@
     margin: 0 0 10px
     em
       position: relative
-      text-decoration: none
       font-style: normal
+      @extend .underline
       &:after
-        content: ''
-        position: absolute
-        top: 100%
-        left: 0
-        width: 100%
         margin-top: 4px
-        border-bottom: 1px solid $main_color
+        border-color: $main_color
 
   .heading-subtitle
     font-size: 18px

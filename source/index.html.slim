@@ -9,16 +9,26 @@ section.hero
       = link_to "S'inscrire Gratuitement", '#', class: 'button'
 
 section#about.about
-  .wrapper
-    .section-heading
-      h2.heading-title À propos
-      p.heading-text
-        | Les Design &amp; Beers Talks sont faits pour les passionnés.
-        br
-        | Graphistes, illustrateurs, vidéastes, typographes, développeurs, tous le monde est le bienvenue.
-        br
-        br
-        | Le but est simplement de se rencontrer et d’échanger en bonne compagnie.
+  .about-heading
+    .wrapper
+      .section-heading
+        h2.heading-title À propos
+        p.heading-text
+          | Les Design &amp; Beers Talks sont faits pour les passionnés.
+          br
+          | Graphistes, illustrateurs, vidéastes, typographes, développeurs, tous le monde est le bienvenue.
+          br
+          br
+          | Le but est simplement de se rencontrer et d’échanger en bonne compagnie.
+
+  .about-banner
+
+  .wrapper.partners
+    h3.partners-title Merci à nos gentils partenaires
+    .partner = link_to 'http://www.facebook.com/pages/The-Ramblin-Man/482979061753967?fref=ts', target: '_blank' do
+      = image_tag 'ramblin-man-logo.svg'
+    .partner = link_to 'http://adcglobal.org/', target: '_blank' do
+      = image_tag 'adc-global-awards-and-club-logo.svg'
 
 section#talks.talks
   .wrapper
@@ -54,3 +64,29 @@ section#team.team
 
 
 section#contacts.contacts
+  .wrapper
+    .section-heading
+      h2.heading-title Contacts
+      .heading-text
+        p
+          ' Tu peux nous contacter par
+          = mail_to 'hi@dbtalks.org', 'Email'
+          ' , sur
+          => link_to 'Twitter', '//twitter.com/dbtalks_org', target: '_blank'
+          ' ou sur
+          = link_to 'Facebook', '//facebook.com/dbtalksbdx', tagret: '_blank'
+          | .
+          br
+          | Si tu veux recevoir des alertes pour les prochains événement
+        form(action="http://dbtalks.us6.list-manage.com/subscribe/post?u=bee4b58125006c42caafc80fc&amp;id=15dc421226" method="post" target="_blank" novalidate="")
+          label(for="mce-EMAIL") inscris-toi à la mailing list :
+          .input
+            input(type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Adresse Email" required="")
+            input(type="submit" value="✍" name="subscribe")
+
+    footer.footer
+      p
+        ' Si tu lis encore ici c’est que tu dois venir au prochain d&b talk →
+        = link_to 'inscris-toi naooow!', '#'
+        br
+        | • In good karma we trust •

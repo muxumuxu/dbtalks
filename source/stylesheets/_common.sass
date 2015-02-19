@@ -1,3 +1,5 @@
+@import "compass/css3/transition"
+
 *
   box-sizing: border-box
   -webkit-font-smoothing: antialiased
@@ -30,9 +32,21 @@ p a
   color: $title_color
   text-decoration: none
 
+.underline
+  position: relative
+  text-decoration: none
+  &:after
+    content: ''
+    position: absolute
+    top: 100%
+    left: 0
+    width: 100%
+    border-bottom: 1px solid currentColor
+
 
 .button
   display: inline-block
+  height: 50px
   line-height: 50px
   padding: 0 20px
   border: 2px solid #FF0000
@@ -42,6 +56,10 @@ p a
   font-weight: bold
   font-size: 18px
   text-align: center
+  +transition(all .2s)
+  &:hover
+    color: white
+    background-color: $button_color
 
 .section-heading
   overflow: auto
@@ -59,11 +77,13 @@ p a
     padding-left: 20px
     float: right
     width: 70%
-    margin: 0
+    &, p
+      margin: 0
 
 @media screen and (max-width: 880px)
   .wrapper
-    padding: 0 20px
+    padding-left: 20px
+    padding-right: 20px
 
 @media screen and (max-width: 640px)
   .button
