@@ -1,10 +1,35 @@
 @import "compass/css3/transition"
+@import "compass/css3/transform"
 
 .talks
   padding: 140px 0 0
 
   .talk-list
     margin-top: 60px
+
+  .talk-list-more
+    color: $main_color
+    text-align: center
+    font-size: 18px
+    line-height: 24px
+    margin: 35px 0 0
+    cursor: pointer
+    &:before
+      content: ''
+      position: relative
+      top: -4px
+      display: inline-block
+      border: 1px solid $main_color
+      border-width: 0 0 1px 1px
+      width: 15px
+      height: 15px
+      margin-right: 10px
+      +transition(top .2s)
+      +transform(rotate(-45deg))
+      +transform-origin(50% 50%)
+    &:hover
+      &:before
+        top: 0
 
   .talk-link
     display: block
