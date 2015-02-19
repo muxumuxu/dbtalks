@@ -41,7 +41,7 @@ section#talks.talks
         | dès maintenant.
 
     .talk-list
-      - visible_talks = data.talks[1..4]
+      - visible_talks = data.talks[0...4]
       - more_talks = data.talks[4..-1]
       .visible-talks
         - visible_talks.each do |talk|
