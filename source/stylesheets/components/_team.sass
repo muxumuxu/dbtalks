@@ -7,14 +7,23 @@
 
   .member
     position: relative
-    width: 210px
-    height: 210px
+    max-width: 210px
+    max-height: 210px
+    width: 25%
     background-size: cover
     background-color: $border_color
     float: left
+    &:before
+      position: relative
+      z-index: -1
+      content: ''
+      display: block
+      padding-top: 100%
 
   .member-infos
-    position: relative
+    position: absolute
+    top: 0
+    left: 0
     width: 100%
     height: 100%
     color: white
@@ -55,3 +64,8 @@
 @media screen and (max-width: 640px)
   .team
     padding: 70px 0
+
+@media screen and (max-width: 460px)
+  .team
+    .member
+      width: 50%
