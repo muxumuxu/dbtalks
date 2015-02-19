@@ -2,11 +2,8 @@ section.hero
   .wrapper
     .heading
       h1.heading-title Les Design & Beers Talks se déroulent tous les derniers Lundis de chaque mois au <em>Ramblin’Man</em> à 19h00
-      p.heading-subtitle
-        | Lundi 2 mars, présentation par Andrei Bocan :
-        br
-        | “Let's talk type”
-      = link_to "S'inscrire Gratuitement", '#', class: 'button'
+      p.heading-subtitle = data.next_talk.description
+      = link_to "S'inscrire Gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
 
 section#about.about
   .about-heading
@@ -115,6 +112,6 @@ section#contacts.contacts
     footer.footer
       p
         ' Si tu lis encore ici c’est que tu dois venir au prochain d&b talk →
-        = link_to 'inscris-toi naooow!', '#'
+        = link_to 'inscris-toi naooow!', data.next_talk.registration_link, target: '_blank'
         br
         | • In good karma we trust •
