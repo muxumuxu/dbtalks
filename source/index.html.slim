@@ -1,3 +1,26 @@
+header.header.static-header
+  .wrapper
+    = link_to '#top', class: 'logo' do
+      = image_tag 'logo-dbtalks.svg'
+
+    nav.menu
+      ul.menu-list
+        li.menu-item = link_to 'À propos', '#about'
+        li.menu-item = link_to 'Talks', '#talks'
+        li.menu-item = link_to 'Équipe', '#team'
+        li.menu-item = link_to 'Contacts', '#contacts'
+
+header.header.fixed-header
+  .wrapper
+    = link_to 'Design & Beers Talks', '#top', class: 'logo'
+
+    nav.menu
+      ul.menu-list
+        li.menu-item = link_to 'À propos', '#about', data: { anchor: 'about' }
+        li.menu-item = link_to 'Talks', '#talks', data: { anchor: 'talks' }
+        li.menu-item = link_to 'Équipe', '#team', data: { anchor: 'team' }
+        li.menu-item = link_to 'Contacts', '#contacts', data: { anchor: 'contacts' }
+
 section.hero
   .wrapper
     .heading

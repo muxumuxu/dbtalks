@@ -20,18 +20,6 @@ html lang='fr'
     = stylesheet_link_tag 'app'
 
   body#top
-    header.header
-      .wrapper
-        = link_to '#top', class: 'logo' do
-          = image_tag 'logo-dbtalks.svg'
-
-        nav.menu
-          ul.menu-list
-            li.menu-item = link_to 'À propos', '#about'
-            li.menu-item = link_to 'Talks', '#talks'
-            li.menu-item = link_to 'Équipe', '#team'
-            li.menu-item = link_to 'Contacts', '#contact'
-
     = yield
 
     = javascript_include_tag 'app'
