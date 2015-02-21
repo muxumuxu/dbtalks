@@ -1,25 +1,25 @@
 header.header.static-header
   .wrapper
-    = link_to '#top', class: 'logo' do
+    = link_to '#top', class: 'logo', data: { scroll: true } do
       = image_tag 'logo-dbtalks.svg'
 
     nav.menu
       ul.menu-list
-        li.menu-item = link_to 'À propos', '#about'
-        li.menu-item = link_to 'Talks', '#talks'
-        li.menu-item = link_to 'Équipe', '#team'
-        li.menu-item = link_to 'Contacts', '#contacts'
+        li.menu-item = link_to 'À propos', '#about', data: { scroll: true }
+        li.menu-item = link_to 'Talks', '#talks', data: { scroll: true }
+        li.menu-item = link_to 'Équipe', '#team', data: { scroll: true }
+        li.menu-item = link_to 'Contacts', '#contacts', data: { scroll: true }
 
 header.header.fixed-header
   .wrapper
-    = link_to 'Design & Beers Talks', '#top', class: 'logo'
+    = link_to 'Design & Beers Talks', '#top', class: 'logo', data: { scroll: true }
 
     nav.menu
       ul.menu-list
-        li.menu-item = link_to 'À propos', '#about', data: { anchor: 'about' }
-        li.menu-item = link_to 'Talks', '#talks', data: { anchor: 'talks' }
-        li.menu-item = link_to 'Équipe', '#team', data: { anchor: 'team' }
-        li.menu-item = link_to 'Contacts', '#contacts', data: { anchor: 'contacts' }
+        li.menu-item = link_to 'À propos', '#about', data: { anchor: 'about', scroll: true }
+        li.menu-item = link_to 'Talks', '#talks', data: { anchor: 'talks', scroll: true }
+        li.menu-item = link_to 'Équipe', '#team', data: { anchor: 'team', scroll: true }
+        li.menu-item = link_to 'Contacts', '#contacts', data: { anchor: 'contacts', scroll: true }
 
 section.hero
   .wrapper

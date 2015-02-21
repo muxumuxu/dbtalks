@@ -1,4 +1,7 @@
+#= require vendor/smooth-scroll
 #= require_tree .
+
+smoothScroll.init()
 
 talkList     = document.querySelector '.talk-list'
 talkListMore = document.querySelector '.talk-list-more'
