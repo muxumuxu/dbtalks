@@ -24,7 +24,10 @@ header.header.fixed-header
 section.hero
   .wrapper
     .heading
-      h1.heading-title Les Design & Beers Talks se déroulent tous les derniers Lundis de chaque mois au <em>Ramblin’Man</em> à 19h00
+      h1.heading-title
+        ' Les Design & Beers Talks se déroulent tous les derniers Lundis de chaque mois au
+        => link_to 'Ramblin’Man', 'https://www.facebook.com/TheRamblinMan'
+        | à 19h00
       p.heading-subtitle = data.next_talk.description
       = link_to "S'inscrire Gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
 
