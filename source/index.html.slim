@@ -20,7 +20,7 @@ header.header.fixed-header
         li.menu-item = link_to 'Talks', '#talks', data: { anchor: 'talks', scroll: true }
         li.menu-item = link_to 'Équipe', '#team', data: { anchor: 'team', scroll: true }
         li.menu-item = link_to 'Contacts', '#contacts', data: { anchor: 'contacts', scroll: true }
-        li.menu-item = link_to "S'inscrire Gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
+        li.menu-item = link_to "S'inscrire gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
 
 section.hero
   .wrapper
@@ -30,7 +30,7 @@ section.hero
         => link_to 'Ramblin’Man', 'https://www.facebook.com/TheRamblinMan', target: '_blank'
         | à 19h00
       p.heading-subtitle = data.next_talk.description
-      = link_to "S'inscrire Gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
+      = link_to "S'inscrire gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
 
 section#about.about
   .about-heading
@@ -40,7 +40,7 @@ section#about.about
         p.heading-text
           | Les Design &amp; Beers Talks sont faits pour les passionnés.
           br
-          | Graphistes, illustrateurs, vidéastes, typographes, développeurs, tous le monde est le bienvenue.
+          | Graphistes, illustrateurs, vidéastes, typographes, développeurs, tout le monde est le bienvenue.
           br
           br
           | Le but est simplement de se rencontrer et d’échanger en bonne compagnie.
@@ -96,7 +96,7 @@ section#team.team
     .section-heading
       h2.heading-title Équipe
       p.heading-text
-        | Notre équipe est composée à 99.9% d’humains passionnés, plus une licorne dite “Licorne des Internets”.
+        | Notre équipe est composée à 99,9% d’humains passionnés, plus une licorne dite “Licorne des Internets”.
         br
         ' Pour plus de bonheur dans ta vie,
         => mail_to 'hi@dbtalks.org', 'rejoins-nous'
@@ -129,7 +129,7 @@ section#contacts.contacts
           = link_to 'Facebook', '//facebook.com/dbtalksbdx', tagret: '_blank'
           | .
           br
-          | Si tu veux recevoir des alertes pour les prochains événement
+          | Si tu veux recevoir des alertes pour les prochains événements
         form(action="//dbtalks.us6.list-manage.com/subscribe/post?u=bee4b58125006c42caafc80fc&amp;id=15dc421226" method="post" target="_blank" novalidate="")
           label(for="mce-EMAIL") inscris-toi à la mailing list :
           .input
