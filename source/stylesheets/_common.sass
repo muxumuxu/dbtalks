@@ -43,12 +43,26 @@ p a
     width: 100%
     border-bottom: 1px solid currentColor
 
+.arrow-after
+  &:after
+    position: relative
+    display: inline-block
+    content: '→'
+    color: $main_color
+    margin-left: 2px
+    left: -4px
+    opacity: 0
+    +transition(all .2s)
+  &:hover
+    &:after
+      left: 0
+      opacity: 1
+
 
 .button
   display: inline-block
-  height: 50px
-  line-height: 50px
-  padding: 0 20px
+  line-height: 1.4em
+  padding: 12px 20px 10px
   border: 2px solid #FF0000
   border-radius: 4px
   text-decoration: none

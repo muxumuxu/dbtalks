@@ -20,6 +20,7 @@ header.header.fixed-header
         li.menu-item = link_to 'Talks', '#talks', data: { anchor: 'talks', scroll: true }
         li.menu-item = link_to 'Équipe', '#team', data: { anchor: 'team', scroll: true }
         li.menu-item = link_to 'Contacts', '#contacts', data: { anchor: 'contacts', scroll: true }
+        li.menu-item = link_to "S'inscrire Gratuitement", data.next_talk.registration_link, class: 'button', target: '_blank'
 
 section.hero
   .wrapper

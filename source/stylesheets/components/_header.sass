@@ -1,3 +1,5 @@
+@import "compass/css3/transform"
+
 .header
   line-height: 48px
   overflow: auto
@@ -40,6 +42,7 @@
   .logo
     width: auto
     height: 100%
+    line-height: 54px
     font-weight: bold
     font-size: 14px
     color: white
@@ -53,6 +56,26 @@
       &.current
         opacity: 1
         font-weight: bold
+    .button
+      opacity: 1
+      padding: 7px 12px 5px
+      color: $main_color
+      background-color: white
+      border-color: white
+      font-size: 14px
+      +transition(opacity .2s)
+      &:hover
+        opacity: .8
+
+@media screen and (max-width: 750px)
+  .header
+    .menu-item
+      margin-left: 16px
+
+@media screen and (max-width: 680px)
+  .fixed-header
+    .menu-item
+      margin-left: 12px
 
 @media screen and (max-width: 640px)
   .header

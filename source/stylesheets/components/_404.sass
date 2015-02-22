@@ -1,3 +1,4 @@
+@import "compass/css3/transition"
 @import "compass/css3/transform"
 
 .cat-sans-quatre
@@ -26,7 +27,8 @@
     max-width: 520px
     padding: 0 20px
     text-align: center
-    +transform(translate(-50%, -50%))
+    margin-left: -260px
+    +transform(translateY(-50%))
     h1
       color: inherit
       text-transform: uppercase
@@ -36,7 +38,15 @@
       margin-bottom: 30px
 
     .button
+      color: $main_color
       background-color: white
       border-color: white
+      +transition(opacity .2s)
       &:hover
-        background-color: transparent
+        opacity: .8
+
+@media screen and (max-width: 560px)
+  .cat-sans-quatre
+    .cat-sans-quatre-text
+      left: 0
+      margin-left: 0
