@@ -1,10 +1,24 @@
+- title: "Come to the dark side we have (cookies) high conversion rates"
+  date: 2014-01-26
+  author: Sami Lini
+  description: |
+    Après cette présentation, vous ne verrez plus les magasins Ikea de la même manière !
+  url: \http://blog.akiani.fr/video-slides-les-dark-pattern/
+  
+- title: "Animez-moi"
+  date: 2014-11-24
+  author: Rémi
+  description: |
+    Rémi est un développeur iOS et front-end passionné par les belles apps bien faites jusqu’au moindre détail. Des projets plein la tête. Et puis groupie officiel de Mark Zuckerberg.
+  url: \http://t.co/7mSax1YB0i
+
 - title: "Onboarding : Refonte & Optimisation"
   date: 2014-10-26
   author: Marie Aline Millot
   description: |
     Marie nous présente son retour d'expérience à la suite de la refonte du
     Onboarding pour l'application Azendoo.
-  url: \#
+  url: \https://speakerdeck.com/dbtalks/onboarding-refonte-and-optimisation-pour-azendoo
 
 - title: Designer avec le client
   date: 2014-09-29
@@ -12,7 +26,7 @@
   description: |
     Pierre est persuadé qu'il est possible d'établir une communication entre
     les pros du web et le reste du monde.
-  url:
+  url: \https://speakerdeck.com/dbtalks/designer-avec-le-client
 
 - title: Design for tourism
   date: 2014-07-07
@@ -20,7 +34,7 @@
   description: |
     Anaïs, Andrei & Olivier forment le trio des créatifs grognons de La
     Compagnie Hyperactive
-  url:
+  url: \https://speakerdeck.com/gestaltfabrik/design-for-tourism
 
 - title: Parlons datavisualisation
   date: 2014-05-26
@@ -28,12 +42,46 @@
   description: |
     Noémie et Mathieu feront la démonstration que datavisualisation ne rime pas
     forcément avec mystification.
-  url:
+  url: \https://speakerdeck.com/dbtalks/parlons-datavisualisation
 
 - title: Le design pour la presse
   date: 2014-04-28
   author: Renaud Forestier & Cédric Néhémie
   description: |
-    [TODO]
-    ...
-  url:
+    Retour d'expérience sur la refonte du site Sud Ouest et Midi Libre par Renaud Forestier (DA) et Cédric Néhémie (dev).
+  url: \https://speakerdeck.com/dbtalks/le-design-pour-la-presse
+  
+- title: Utiliser Sass efficacement
+  date: 2014-03-31
+  author: Damian Le Nouaille
+  description: |
+    Damian est un développeur web passionné. Après deux années de freelance, il a co-créé Geeksters : une agence de développement et d'innovation web.
+  url: \https://speakerdeck.com/dbtalks/utiliser-sass-efficacement
+
+- title: From dev to designers with love
+  date: 2014-01-22
+  author: Arnaud Rinquin
+  description: |
+    Arnaud est web Developer, il n'est absolument pas doué pour le design. En revanche, il s'éclate à développer les web apps exactement comme vous les avez imaginées.
+  url: \http://slid.es/arnaudr/from-dev-to-designers-with-love
+  
+- title: Design for Humans
+  date: 2013-09-30
+  author: Guillaume Deflaux
+  description: |
+    Guillaume travaille depuis plus de 7 ans pour l'ONG Terre des hommes pour laquelle il a la charge de concevoir des applications web pour les métiers de l'humanitaire.
+  url: \https://speakerdeck.com/dbtalks/design-for-humans
+  
+- title: Design for mobile
+  date: 2013-05-13
+  author: Luc
+  description: |
+    Luc fait des applis dans la joie.
+  url: \https://speakerdeck.com/dbtalks/design-for-mobile
+
+- title: Design for games
+  date: 2013-03-04
+  author: Renaud Forestié
+  description: |
+    A 28 ans, Renaud est un homme aux multiples chapeaux (de cowboy). La nuit, c'est un illustrateur de renom, dont l'oeuvre se retrouve dans des livres d'art, des expositions, des campagnes de publicité, des jeux vidéo...
+  url: \https://speakerdeck.com/dbtalks/design-for-games
