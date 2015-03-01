@@ -9,21 +9,37 @@
 
 - name: Andrei
   photo: andrei.jpg
+  links:
+    twitter: https://twitter.com/gestaltfabrik
+    site: http://gestaltfabrik.fr/
 
 - name: Noémie
   photo: noemie.jpg
+  links:
+    twitter: https://twitter.com/campb_LLs
+    site: http://n-m-r.fr/
 
 - name: Stéphanie
   photo: stephanie.jpg
+  links:
+    twitter: https://twitter.com/nantenai
 
 - name: Romain
   photo: romain.jpg
+  links:
+    twitter:https://twitter.com/Nokifict
 
 - name: Jonathan
   photo: jonathan.jpg
+  links:
+    twitter: https://twitter.com/the_handeyed
+    site: http://www.jonathanjato.com/
 
 - name: Marie Aline
   photo: marie-aline.jpg
+  links:
+    twitter: https://twitter.com/mariealine_m
+    site: http://mariealinemillot.com/
 
 - name: Luc
   photo: luc.jpg
