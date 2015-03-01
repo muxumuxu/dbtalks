@@ -27,7 +27,7 @@
 - name: Romain
   photo: romain.jpg
   links:
-    twitter:https://twitter.com/Nokifict
+    twitter: https://twitter.com/Nokifict
 
 - name: Jonathan
   photo: jonathan.jpg
