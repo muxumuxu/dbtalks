@@ -3,9 +3,19 @@ require 'rubygems'
 require 'rack'
 require 'middleman/rack'
 require 'rack/contrib/try_static'
+require 'rack/cors'
 
 # Build the static site when the app boots
 `bundle exec middleman build`
+
+use Rack::Cors do
+  allow do
+    origins '*'
+    resource '*',
+      headers: :any,
+      methods: [:get, :options]
+  end
+end
 
 use Rack::Deflater
 # Enable proper HEAD responses

@@ -10,6 +10,7 @@ set :fonts_dir, 'fonts'
 
 set :build_dir, 'tmp'
 activate :directory_indexes
+activate :dotenv
 
 if ENV['ASSETS_HOST']
   activate :asset_host

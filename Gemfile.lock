@@ -26,6 +26,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    dotenv (1.0.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -70,6 +71,9 @@ GEM
       rack-test (~> 0.6.2)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
+    middleman-dotenv (1.1.1)
+      dotenv (~> 1.0)
+      middleman-core (>= 3.2)
     middleman-inliner (1.0.1)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
@@ -94,6 +98,7 @@ GEM
     rack (1.6.0)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
+    rack-cors (0.3.1)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.3)
@@ -134,9 +139,11 @@ PLATFORMS
 DEPENDENCIES
   compass
   middleman (~> 3.3.9)
+  middleman-dotenv
   middleman-inliner
   middleman-livereload (~> 3.1.0)
   puma
   rack-contrib
+  rack-cors
   sass
   slim
