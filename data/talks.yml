@@ -1,9 +1,16 @@
+- title: "Let's talk type"
+  date: 2015-01-26
+  author: Andrei Bocan
+  description: |
+    Maestro des pixels et des interfaces web, Andrei est UI / UX Designer @ l'Atelier Gestaltfabrik. Quand il n’est pas plongé dans une bataille de gif, ce grumpy cat du design claque son salaire en vinyles et en polices de caractères.
+  url: https://speakerdeck.com/gestaltfabrik/lets-talk-type
+  
 - title: "Come to the dark side we have (cookies) high conversion rates"
   date: 2015-01-26
   author: Sami Lini
   description: |
     Après cette présentation, vous ne verrez plus les magasins Ikea de la même manière !
-  url: http://blog.akiani.fr/video-slides-les-dark-pattern/
+  url: http://fr.slideshare.net/akiani/db-talk-akiani-dark-patterns
   
 - title: "Animez-moi"
   date: 2014-11-24
