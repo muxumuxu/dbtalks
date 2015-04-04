@@ -70,7 +70,7 @@ section#talks.talks
       .visible-talks
         - visible_talks.each do |talk|
           article.talk
-            = link_to talk.url, class: 'talk-link' do
+            = link_to talk.url, class: 'talk-link', target: '_blank' do
               .talk-author = talk.author
               .talk-text
                 .talk-title = talk.title
