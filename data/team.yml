@@ -47,6 +47,16 @@
     twitter: https://twitter.com/lucchaissac
     site: http://lucchaissac.com/
 
+- name: Axel
+  photo: axel.jpg
+  links:
+    site: http://www.axeljohnston.com/
+
+- name: Charley
+  photo: charley.jpg
+  links:
+    twitter: https://twitter.com/calyhre
+
 - name: Licorne des Internets
   photo: licorne.jpg
   links:
