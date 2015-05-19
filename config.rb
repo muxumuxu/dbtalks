@@ -1,20 +1,15 @@
-Slim::Engine.options[:pretty] = true
 I18n.default_locale = :fr
-
-activate :livereload, no_swf: true, apply_css_live: true
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
-set :build_dir, 'tmp'
-activate :directory_indexes
 activate :dotenv
 
-if ENV['ASSETS_HOST']
-  activate :asset_host
-  set :asset_host, ENV['ASSETS_HOST']
+configure :development do
+  Slim::Engine.options[:pretty] = true
+  activate :livereload, no_swf: true, apply_css_live: true
 end
 
 # Build-specific configuration
@@ -26,7 +21,7 @@ configure :build do
   Slim::Engine.options[:pretty] = false
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
