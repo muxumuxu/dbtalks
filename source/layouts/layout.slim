@@ -1,0 +1,35 @@
+doctype 5
+html lang='fr'
+  head
+    meta http-equiv='content-type' content='text/html; charset=utf-8'
+
+    title Design & Beers Talks Bordeaux
+
+    meta name='description' content="D&B talks c'est le rendez-vous de tous les designers et passionnés du numérique. On y parle UX, UI, Web, Mobile, Motion Design... Le tout autour de bonnes bières dans une ambiance décontractée."
+    meta name="keywords" content="Design and Beers Talks, Bordeaux, design, apéro, talks, présentation"
+    meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+
+    meta property="og:title" content="Design and Beers Talks"
+    meta property="og:url" content="https://dbtalks.org"
+    meta property="og:image" content="https://dbtalks.org/images/facebook.jpg"
+    meta property="og:description" content="D&B talks c'est le rendez-vous de tous les designers et passionnés du numérique. On y parle UX, UI, Web, Mobile, Motion Design... Le tout autour de bonnes bières dans une ambiance décontractée."
+
+    link rel="canonical" href="https://dbtalks.org"
+    link rel="shortcut icon" href=asset_url("images/favicon.ico")
+
+    = stylesheet_link_tag 'app'
+
+  body#top
+    = yield
+
+    = javascript_include_tag 'app'
+
+    - if build?
+      javascript:
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-47288514-1', 'dbtalks.org');
+        ga('send', 'pageview');

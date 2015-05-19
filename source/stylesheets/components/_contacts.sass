@@ -1,0 +1,61 @@
+.contacts
+  color: white
+  background-color: black
+  padding: 140px 0 0
+
+  .heading-title
+    color: white
+  .heading-text
+    a
+      color: white
+      @extend .underline
+
+  .input
+    margin-top: 10px
+    input
+      display: inline-block
+      vertical-align: middle
+      outline: none
+
+  input[type="email"]
+    background: rgba(#D8D8D8, .36)
+    border: none
+    border-radius: 2px
+    color: rgba(white, .8)
+    font-size: 14px
+    padding: 10px 12px
+    margin-right: 4px
+    height: 40px
+
+  input[type="submit"]
+    font-size: 46px
+    font-weight: normal
+    color: inherit
+    cursor: pointer
+    background-color: $main_color
+    border: none
+    height: 40px
+    line-height: 40px
+    padding: 0 9px
+    border-radius: 2px
+    -webkit-appearance: none
+
+  .footer
+    color: $text_color
+    text-transform: uppercase
+    text-align: center
+    font-weight: 600
+    font-size: 10px
+    letter-spacing: 2px
+    line-height: 1.8em
+    margin-top: 90px
+    padding: 40px 0
+    border-top: 1px solid rgba($border_color, .2)
+
+    a
+      color: inherit
+      @extend .underline
+
+@media screen and (max-width: 640px)
+  .contacts
+    padding: 70px 0 0

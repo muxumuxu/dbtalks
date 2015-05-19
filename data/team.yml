@@ -1,0 +1,63 @@
+# Team member model should be:
+#
+# - name: Name of the crew member
+#   photo: photo_of_the_crew.jpg (in the folder images/team)
+#   links:
+#     twitter: http://twitter.com/Username
+#     site: http://the-member.site
+#     anything: http://any-possible.url/Can-Also-Be-A-mailto
+
+- name: Andrei
+  photo: andrei.jpg
+  links:
+    twitter: https://twitter.com/gestaltfabrik
+    site: http://gestaltfabrik.fr/
+
+- name: Noémie
+  photo: noemie.jpg
+  links:
+    twitter: https://twitter.com/campb_LLs
+    site: http://n-m-r.fr/
+
+- name: Stéphanie
+  photo: stephanie.jpg
+  links:
+    twitter: https://twitter.com/nantenai
+
+- name: Romain
+  photo: romain.jpg
+  links:
+    twitter: https://twitter.com/Nokifict
+
+- name: Jonathan
+  photo: jonathan.jpg
+  links:
+    twitter: https://twitter.com/the_handeyed
+    site: http://www.jonathanjato.com/
+
+- name: Marie Aline
+  photo: marie-aline.jpg
+  links:
+    twitter: https://twitter.com/mariealine_m
+    site: http://mariealinemillot.com/
+
+- name: Luc
+  photo: luc.jpg
+  links:
+    twitter: https://twitter.com/lucchaissac
+    site: http://lucchaissac.com/
+
+- name: Axel
+  photo: axel.jpg
+  links:
+    site: http://www.axeljohnston.com/
+
+- name: Charley
+  photo: charley.jpg
+  links:
+    twitter: https://twitter.com/calyhre
+
+- name: Licorne des Internets
+  photo: licorne.jpg
+  links:
+    site: http://gf-drawingaday.tumblr.com
