@@ -21,13 +21,11 @@ This repository is for Design & Beers website: [dbtalks.org](http://dbtalks.org)
 3. Finally, start it with `bundle exec middleman`
 4. Watch it live at [localhost:4567](http://localhost:4567)
 
+### Deployment
+
+1. run `rake publish`
+
 
 ## Contributing
 
-Want to participite on making this website even better ?  
-Follow the guide:
-
-1. Fork repository
-2. Create a branch following _[A successfull branching model](http://nvie.com/posts/a-successful-git-branching-model/)_
-3. Write your feature/fix
-4. Pull request
+See [CONTRIBUTING.md](CONTRIBUTING.md)
