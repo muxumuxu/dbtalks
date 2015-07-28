@@ -7,17 +7,17 @@
 #     site: http://the-member.site
 #     anything: http://any-possible.url/Can-Also-Be-A-mailto
 
-- name: Andrei
-  photo: andrei.jpg
-  links:
-    twitter: https://twitter.com/gestaltfabrik
-    site: http://gestaltfabrik.fr/
-
 - name: Noémie
   photo: noemie.jpg
   links:
     twitter: https://twitter.com/campb_LLs
     site: http://n-m-r.fr/
+
+- name: Andrei
+  photo: andrei.jpg
+  links:
+    twitter: https://twitter.com/gestaltfabrik
+    site: http://gestaltfabrik.fr/
 
 - name: Stéphanie
   photo: stephanie.jpg
