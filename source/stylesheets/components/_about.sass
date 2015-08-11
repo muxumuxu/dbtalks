@@ -1,3 +1,5 @@
+@import "compass/css3/flexbox"
+
 .about
   .about-heading
     background: image-url('about.jpg') $about_background
@@ -30,14 +32,21 @@
     text-transform: uppercase
     margin: 0 0 20px
 
+  .partners-container
+    +display-flex
+    +flex-direction(row)
+    +align-items(strech)
+
   .partner
-    width: 50%
-    line-height: 120px
-    float: left
-    img
-      vertical-align: middle
-    &:first-of-type
-      border-right: 1px solid $border_color
+    +flex(1)
+    +display-flex
+    +flex-direction(row)
+    +align-items(center)
+    +justify-content(center)
+    height: 120px
+    border-right: 1px solid $border_color
+    &:last-child
+      border: none
 
 @media screen and (max-width: 640px)
   .about
@@ -46,10 +55,12 @@
 
     .partners-title
       margin-bottom: 0
+
+    .partners-container
+      +flex-direction(column)
+
     .partner
-      float: none
       width: 100%
-      line-height: 180px
-      &:first-of-type
-        border-right: none
-        border-bottom: 1px solid $border_color
+      height: 180px
+      border-right: none
+      border-bottom: 1px solid $border_color

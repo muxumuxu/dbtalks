@@ -49,10 +49,13 @@ section#about.about
 
   .wrapper.partners
     h3.partners-title Merci à nos gentils partenaires
-    .partner = link_to 'https://www.facebook.com/TheRamblinMan', target: '_blank' do
-      = image_tag 'ramblin-man-logo.svg'
-    .partner = link_to 'http://adcglobal.org/', target: '_blank' do
-      = image_tag 'adc-global-awards-and-club-logo.svg'
+    .partners-container
+      = link_to 'https://www.facebook.com/TheRamblinMan', class: 'partner', target: '_blank' do
+        = image_tag 'ramblin-man-logo.svg'
+      = link_to 'http://adcglobal.org/', class: 'partner', target: '_blank' do
+        = image_tag 'adc-global-awards-and-club-logo.svg'
+      = link_to 'https://www.skillshare.com/', class: 'partner', target: '_blank' do
+        = image_tag 'skillshare-logo.svg'
 
 section#talks.talks
   .wrapper
