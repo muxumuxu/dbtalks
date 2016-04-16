@@ -1,33 +1,38 @@
 - title: "Entre free-lance et agence"
   date: 2016-02-29
-  author: Jean-baptiste Guignot
+  author: Jean-Baptiste Guignot
   description: |
     Gérant des Pirates à Bordeaux. Rafistoleur d'images qui bougent sur internet et à la télé. Président de l'association Kino Session aussi.
   url: https://speakerdeck.com/jbguignot/entre-freelance-and-agence
+
 - title: "Life of an illustrator"
   date: 2016-01-25
   author: Christina Hägerfors
   description: |
     A dream job for me is a project where I come up with an unusual solution, where I get to express my imagination and where the end result makes me proud. Who th assignment comes from or what the subject matter is is not as important.
   url: https://speakerdeck.com/dbtalks/life-of-an-illustrator
+
 - title: "Les ateliers de co-conception - Design Charette"
   date: 2015-11-30
   author: Axel Johnston
   description: |
     Axel est designer d’expérience et directeur associé de l’agence bordelaise Akiani, conseil en expérience utilisateur (UX design, UX research) et facteurs humains. Il accompagne les entreprises dans la conception de produits et service digitaux en mettant au centre de la conception les utilisateurs et leurs usages futurs.
   url: http://fr.slideshare.net/akiani/db-talks-design-charette
+
 - title: "Behance Portfolio Reviews"
   date: 2015-10-31
   author: D&B Talks
   description: |
     Cette première édition bordelaise a pour objectif de faciliter le lien entre des jeunes créateurs - encore en formation ou en début de carrière - et des experts dans les domaines de la création, de la technologie et de la stratégie, prêts à partager leur expérience professionnelle et leur savoir-faire.
   url: https://portfolio-reviews.fr/
+
 - title: "Visual Design In-House"
   date: 2015-09-29
   author: Adrien Griveau
   description: |
     Adrien nous partage son expérience sur le métier de visual designer au sein d'une start-up.
   url: https://speakerdeck.com/dbtalks/adrien-griveau-visual-design-in-house
+
 - title: "Sketch IRL"
   date: 2015-05-29
   author: Luc Chaissac
@@ -48,21 +53,21 @@
   description: |
     Codeur, puis graphiste, puis codeur à nouveau, Sébastien est aujourd'hui développeur et game-designer à Motion Twin, une vénérable boite de jeux vidéo à Bordeaux (bientôt 14 ans !).
   url: https://prezi.com/qo6y9wswsmfw/design-beers-talks-ludum-dare-mars-2015/
-  
+
 - title: "Let's talk type"
   date: 2015-03-02
   author: Andrei Bocan
   description: |
     Maestro des pixels et des interfaces web, Andrei est UI / UX Designer @ l'Atelier Gestaltfabrik. Quand il n’est pas plongé dans une bataille de gif, ce grumpy cat du design claque son salaire en vinyles et en polices de caractères.
   url: https://speakerdeck.com/gestaltfabrik/lets-talk-type
-  
+
 - title: "Come to the dark side we have (cookies) high conversion rates"
   date: 2015-01-26
   author: Sami Lini
   description: |
     Après cette présentation, vous ne verrez plus les magasins Ikea de la même manière !
   url: http://fr.slideshare.net/akiani/db-talk-akiani-dark-patterns
-  
+
 - title: "Animez-moi"
   date: 2014-11-24
   author: Rémi
@@ -108,7 +113,7 @@
   description: |
     Retour d'expérience sur la refonte du site Sud Ouest et Midi Libre par Renaud Forestier (DA) et Cédric Néhémie (dev).
   url: https://speakerdeck.com/dbtalks/le-design-pour-la-presse
-  
+
 - title: Utiliser Sass efficacement
   date: 2014-03-31
   author: Damian Le Nouaille
@@ -122,14 +127,14 @@
   description: |
     Arnaud est web Developer, il n'est absolument pas doué pour le design. En revanche, il s'éclate à développer les web apps exactement comme vous les avez imaginées.
   url: http://slid.es/arnaudr/from-dev-to-designers-with-love
-  
+
 - title: Design for Humans
   date: 2013-09-30
   author: Guillaume Deflaux
   description: |
     Guillaume travaille depuis plus de 7 ans pour l'ONG Terre des hommes pour laquelle il a la charge de concevoir des applications web pour les métiers de l'humanitaire.
   url: https://speakerdeck.com/dbtalks/design-for-humans
-  
+
 - title: Design for mobile
   date: 2013-05-13
   author: Luc
